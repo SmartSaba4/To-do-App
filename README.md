@@ -73,7 +73,7 @@
 
 
 
-# Thank You 🏼‍🤝‍!
+# Thank You 🤝🏻!
         
         
         
