@@ -21,7 +21,7 @@ Simple To-do app using Django
 # 2.Make sure you're installed Django
      # Windows - pip install django 
      # linux - $ sudo apt install python3-django
-              check django version . $ django-admin --verion
+     # check django version . $ django-admin --verion
 
 # 3.Download the project src and Extract as Well ! .
 
@@ -55,7 +55,9 @@ Simple To-do app using Django
     
     
     # For windows - python manage.py runserver [you may include your port no] { python manage.py runserver 3300 }
-        # Django Defaulty run projects in [ PORT 8000 ]
+    
+             ! Django Defaulty run projects in [ PORT 8000 ]
+    
     # For Linux - $ python3 manage.py runserver [you can specify port if you want]
     
 # 8.Open your Browser Enter / copy & Paste URL given by Django
