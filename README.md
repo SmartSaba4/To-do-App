@@ -1,13 +1,13 @@
-# To-do-App
-Simple To-do app using Django
+# 🗒️ To-do-App
+# 🛧 Simple To-do app using Django
 
-# Authentication System [User Registration and Login],
-# User can Create, Read, Update, Delete his Tasks .
+# 🛧 Authentication System [User Registration and Login],
+# 🛧 User can Create, Read, Update, Delete his Tasks .
 
 ![hompage](https://user-images.githubusercontent.com/77879315/213750167-b2ba8eea-f3f1-4e11-922e-0b8db03ed1ef.jpg)
 ![task](https://user-images.githubusercontent.com/77879315/213750221-696ad60c-8be5-4c05-8969-23b7eb4c87ca.jpg)
 
-# Users can allows for log out and re-login
+# 🛧 Users can allows for log out and re-login
 ![logs](https://user-images.githubusercontent.com/77879315/213750254-1e5016e3-8c1d-41e2-9a1a-4a3748649784.jpg)
 
 #############-----------------SETUP-----------------------###################
@@ -73,7 +73,7 @@ Simple To-do app using Django
 
 
 
-# Thank You 🙏 !
+# Thank You 🏼‍🤝‍!
         
         
         
