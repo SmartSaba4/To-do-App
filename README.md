@@ -38,15 +38,16 @@ Simple To-do app using Django
 
 # 6.Create Super User 
 ![spruser](https://user-images.githubusercontent.com/77879315/213758297-8c649999-43b4-4195-84fb-a95c9c2125f3.jpg)
-      
-      
-      # Super User is a administrator, which means controlled everything in Admin Panel
+            
       # To Create a SuperUser ,
           # Windows - python manage.py createsuperuser
           # Linux - $ python3 manage.py createsuperuser
+
+      ! Super User is a administrator, which means controlled everything in Admin Panel
           
-      # You need to enter your admin's username and Email , My case just for test
-      # Set Password and Re-Enter Password and Enter "Y" to continue you credientials !. 
+      ! You need to enter your admin's username and Email , My case just for test
+      
+      ! Set Password and Re-Enter Password and Enter "Y" to continue you credientials !. 
    
 # #####-----Everything Is Done !-----###### 
 
