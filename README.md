@@ -38,6 +38,8 @@ Simple To-do app using Django
 
 # 6.Create Super User 
 ![spruser](https://user-images.githubusercontent.com/77879315/213758297-8c649999-43b4-4195-84fb-a95c9c2125f3.jpg)
+      
+      
       # Super User is a administrator, which means controlled everything in Admin Panel
       # To Create a SuperUser ,
           # Windows - python manage.py createsuperuser
@@ -46,10 +48,12 @@ Simple To-do app using Django
       # You need to enter your admin's username and Email , My case just for test
       # Set Password and Re-Enter Password and Enter "Y" to continue you credientials !. 
    
-# #######################-------------Everything Is Done !----------------######################### 
+# #####-----Everything Is Done !-----###### 
 
 # 7.To start the server / run this project
 ![run](https://user-images.githubusercontent.com/77879315/213754165-7bb47793-818c-4643-adc4-b04438ab7c37.jpg)
+    
+    
     # For windows - python manage.py runserver [you may include your port no] { python manage.py runserver 3300 }
         # Django Defaulty run projects in [ PORT 8000 ]
     # For Linux - $ python3 manage.py runserver [you can specify port if you want]
