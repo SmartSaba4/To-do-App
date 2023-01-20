@@ -66,7 +66,7 @@ Simple To-do app using Django
 
 
 
-# Thank You !
+# Thank You 🙏 !
         
         
         
