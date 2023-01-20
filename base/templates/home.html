@@ -1,0 +1,35 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<div class="main">
+<div class="user_">
+    {% if user.is_authenticated %}
+      <p id="username">@ {{request.user}}</p>
+      <a href="{% url 'logout' %}" id="log_btn">Log Out</a>
+    {% else %}
+      <a href="{% url 'login' %}" id="log_btn">LogIn</a>
+    {% endif %}
+  </div>
+    <div class="wrapper">
+        <h1 id="tasks">Task List</h1>
+        <div>
+            <a href="{% url 'create_task' %}" id="create_new">Create</a>
+            {% for task in task %}
+              <div>
+                <div id="task_list">
+                 {% if request.user == task.user %}
+                  <h1 id="task_title"><a id="task_title" href="{% url 'task' task.id %}">{{task.name}}</a></h1>
+                  <h2 id="task_description">{{task.description}}</h2>
+                 {% endif %}
+                </div>
+              </div>
+          {% endfor %}
+
+            
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

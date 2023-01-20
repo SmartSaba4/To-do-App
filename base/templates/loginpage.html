@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<div class="mainform">
+    <form action="" method="post">
+        <h1 id="page_title">Login Page</h1>
+        {% csrf_token %}
+        <input type="text" name="username" id="" placeholder="Username">
+        <input type="password" name="password" id="" placeholder="Password">
+
+        <button type="submit">Log in</button>
+
+        <a href="{% url 'register' %}" id="links">Don't Have an Acount ? </a>
+    </form>
+</div>
+
+{% endblock content %}

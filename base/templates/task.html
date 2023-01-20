@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="sec">
+<div class="detailed_task">
+
+    <h3 id="goback_"><a href="{% url 'home' %}" style="text-decoration: none; color: black;" >Go Back</a></h3>
+    {% if request.user == task.user %}
+       <h3 id="goback_1"><a href="{% url 'update_task' task.id %}" style="text-decoration: none; color: black;">Edit</a></h3>
+       <h3 id="del"><a href="{% url 'delete_task' task.id %}" style="text-decoration: none; color: black;">Delete</a></h3>
+    {% else %}
+       <h3>Request Denied !</h3>
+    {% endif %}
+    <h1>{{task.name}}</h1>
+    <h3 id="task_description">{{task.description}}</h3>
+    <h4 id="task_created">{{task.created}}</h4>
+   </div>
+</div>
+{% endblock content %}
